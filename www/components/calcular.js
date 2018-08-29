@@ -126,3 +126,10 @@
     c=0;
     });
 
+    $(document).on("click", "#limpar", function(){
+    result="";
+    resultadoFinal=0;
+    c=0;    
+    $("#result").val(result);
+    });
+
